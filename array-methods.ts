@@ -1,3 +1,6 @@
+import { showWeekDay } from "./date-methods.js";
+
+// const showWeekDay = require('./date-methods.js');
 // =========разряженный массив
 
 // const arr: string[] = ['abc', '123', 'lala']

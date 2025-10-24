@@ -35,18 +35,19 @@ const currentDate = new Date();
 // }
 // console.log(showCurrentDate());
 
-// function showWeekDay(date: Date) {
-//   const weekDays = [
-//     'Sunday',
-//     'Monday',
-//     'Tuesday',
-//     'Wenesday',
-//     'Thursday',
-//     'Fiday',
-//     'Saturday',
-//   ];
-//   return weekDays[date.getDay()];
-// }
+export function showWeekDay(date: Date) {
+  const weekDays = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wenesday',
+    'Thursday',
+    'Fiday',
+    'Saturday',
+  ];
+  return weekDays[date.getDay()];
+}
+
 
 // console.log(showWeekDay(currentDate));
 
